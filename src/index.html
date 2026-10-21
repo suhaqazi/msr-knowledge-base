@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MSR Knowledge Base</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>MSR Knowledge Base</h1>
+    <p class="subtitle">A reference guide for Mining Software Repositories research</p>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab-btn active" id="tab-data-sources" data-tab="data-sources">Data Sources</button>
+    <button class="tab-btn" id="tab-collection-methods" data-tab="collection-methods">Collection Methods</button>
+    <button class="tab-btn" id="tab-analysis-methods" data-tab="analysis-methods">Analysis Methods</button>
+    <button class="tab-btn" id="tab-publication-venues" data-tab="publication-venues">Publication Venues</button>
+  </nav>
+
+  <main>
+    <section class="tab-panel active" id="data-sources">
+      <h2>Data Sources</h2>
+      <p>Where MSR researchers get their data from.</p>
+      <table id="data-sources-table">
+        <thead>
+          <tr>
+            <th>Source</th>
+            <th>Data Provided</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>GitHub</td>
+            <td>Repositories, commits, pull requests, issues, stars</td>
+            <td>The largest code hosting platform; the main source for studying how open-source software is developed.</td>
+          </tr>
+          <tr>
+            <td>Stack Overflow</td>
+            <td>Questions, answers, tags, user reputation</td>
+            <td>A developer Q&amp;A site, useful for studying developer problems, knowledge sharing and API usage.</td>
+          </tr>
+          <tr>
+            <td>JIRA</td>
+            <td>Issue tracking, sprint data, bug reports</td>
+            <td>An issue and project tracker used by many organizations and open-source projects such as Apache.</td>
+          </tr>
+          <tr>
+            <td>App Stores</td>
+            <td>Google Play and Apple App Store reviews, ratings, downloads</td>
+            <td>Mobile app marketplaces whose user feedback reveals bugs, feature requests and user satisfaction.</td>
+          </tr>
+          <tr>
+            <td>Travis CI / Jenkins</td>
+            <td>Build logs, test results, deployment data</td>
+            <td>Continuous integration services whose build history shows how software is built, tested and deployed.</td>
+          </tr>
+          <tr>
+            <td>Mailing Lists</td>
+            <td>Developer discussions, archives</td>
+            <td>Email archives of project communication, useful for studying collaboration and decision-making.</td>
+          </tr>
+          <tr>
+            <td>npm Registry</td>
+            <td>Package dependencies, downloads, versions</td>
+            <td>The JavaScript package registry, used to study software ecosystems, dependencies and library updates.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="tab-panel" id="collection-methods">
+      <h2>Collection Methods</h2>
+      <p class="coming-soon">Coming soon (Milestone 3).</p>
+    </section>
+
+    <section class="tab-panel" id="analysis-methods">
+      <h2>Analysis Methods</h2>
+      <p class="coming-soon">Coming soon (Milestone 4).</p>
+    </section>
+
+    <section class="tab-panel" id="publication-venues">
+      <h2>Publication Venues</h2>
+      <p class="coming-soon">Coming soon (Milestone 5).</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>COIS 3060H – Software Processes · Assignment 1</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
