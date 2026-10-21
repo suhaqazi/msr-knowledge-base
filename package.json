@@ -1,0 +1,15 @@
+{
+  "name": "msr-knowledge-base",
+  "version": "1.0.0",
+  "description": "MSR Knowledge Base - COIS 3060H Assignment 1",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}
